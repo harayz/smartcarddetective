@@ -6,7 +6,10 @@
 ----
 19 April 2011
 
-In r8 Omar has added LUFA USB library (http://www.fourwalledcubicle.com/LUFA.php) to the SCD project. There is now a Virtual Serial Port application. 
+In r15 I added some python scripts (see the new tools/ folder) to process  SCD-EMV traces retrieved from the AVR's EEPROM.
+
+
+In r8 I added the LUFA USB library (http://www.fourwalledcubicle.com/LUFA.php) to the SCD project. There is now a Virtual Serial Port application. 
 
 Connect the SCD to a PC/Host via usb, select the Virtual Serial application from the menu and then communicate from the PC/host to the SCD using a terminal (tty, serial emulator). On the host side I can warmly recommend 
 gtkterm which can be used for example in Ubuntu as follows:
