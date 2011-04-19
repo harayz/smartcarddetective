@@ -1,0 +1,18 @@
+#summary A brief description of the major changes in the project.
+#labels Featured,Phase-Implementation
+
+= ChangeLog (first item is newest) =
+
+----
+19 April 2011
+
+In r8 Omar has added LUFA USB library (http://www.fourwalledcubicle.com/LUFA.php) to the SCD project. There is now a Virtual Serial Port application. 
+
+Connect the SCD to a PC/Host via usb, select the Virtual Serial application from the menu and then communicate from the PC/host to the SCD using a terminal (tty, serial emulator). On the host side I can warmly recommend 
+gtkterm which can be used for example in Ubuntu as follows:
+`gtkterm -p /dev/ttyACM0`
+(if ttyACM0 is the virtual serial port in your system). For more information please refer to this link:
+http://code.google.com/p/micropendous/wiki/SerialPortUsageLinux
+
+----
+
