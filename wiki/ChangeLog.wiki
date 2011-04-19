@@ -14,5 +14,6 @@ gtkterm which can be used for example in Ubuntu as follows:
 (if ttyACM0 is the virtual serial port in your system). For more information please refer to this link:
 http://code.google.com/p/micropendous/wiki/SerialPortUsageLinux
 
-----
+Also now the targets scd.hex and scd-DFU.hex (includes the DFU bootloader) have been added to the source code, so that you can program the SCD without the need to build the code (in case you are in a hurry). Even more, now the Makefile has been updated to automatically create the scd-DFU.hex file, which contains the compiled application as well as the DFU bootloader so you don't need to manually append the hex file anymore.
 
+----
