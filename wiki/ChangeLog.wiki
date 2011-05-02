@@ -4,6 +4,14 @@
 = ChangeLog (first item is newest) =
 
 ----
+2 May 2011
+
+In r26 there are many new features added:
+ - python command line interface using the serial (or USB virtual serial) port to connect the SCD. This includes many options to interact with the SCD from the PC.
+ - USB communication added using the LUFA library. Based on this I created a virtual serial port application and extra functionality.
+ - Enhanced the terminal application to support logging.
+
+----
 19 April 2011
 
 In r15 I added some python scripts (see the new tools/ folder) to process  SCD-EMV traces retrieved from the AVR's EEPROM.
